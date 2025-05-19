@@ -1,0 +1,55 @@
+# UE4 기본 설정
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+.VC.db
+.VC.opendb
+.suo
+.user
+.userosscache
+.sln.docstates
+
+# 외부 플러그인 빌드 및 중간 파일
+PluginsBinaries/
+PluginsIntermediate/
+
+# 빌드 시스템 관련
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.sdf
+*.opensdf
+*.ipch
+
+# 에디터 설정 파일 (선택)
+*.log
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.idb
+
+# Mac/Unix 시스템 파일
+.DS_Store
+*.swp
+
+# Windows용 임시 파일
+Thumbs.db
+desktop.ini
+
+# IDE별 개인 설정 파일
+.idea/
+*.iml
+
+# Android 관련
+*.apk
+*.ipa
+*.keystore
+*.jks
+
+# Unreal 에셋 (맵/바이너리) 제외
+*.umap
+*.uasset
